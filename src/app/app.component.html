@@ -4,7 +4,7 @@
   (click)="toggleMenu()"
 >
   <nav
-    class="side-menu"
+    class="slide-menu"
     [ngClass]="{ 'slide-menu-active': showMenu }"
     (click)="$event.stopImmediatePropagation()"
   >
@@ -105,7 +105,7 @@
           class="mode-toggle__bg"
         ></span>
         <span
-          [ngClass="'mode-toggle__circle-checked':darkModeActive"
+          [ngClass]="{'mode-toggle__circle-checked':darkModeActive}"
           class="mode-toggle__circle"
         >
         </span>

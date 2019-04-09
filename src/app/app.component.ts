@@ -6,8 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  showMenu: false;
-  darkModeActive: false;
+  showMenu = true;
+  darkModeActive = true;
   toggleMenu() {}
   modeToggleSwitch() {}
 }
