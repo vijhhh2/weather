@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AddCardComponent implements OnInit {
 
+  darkMode: boolean;
+
   constructor() { }
 
   ngOnInit() {
