@@ -3,6 +3,8 @@
         "Injectable",
         "Minimus",
         "Strom",
-        "fadein"
+        "fadein",
+        "signup",
+        "windspeed"
     ]
 }
